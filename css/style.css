@@ -19,10 +19,6 @@
 	
 	flex-basis: 20%;
 	padding: 5px 10px;
-
-	/* debug
-	background-color: goldenrod;
-	border: 2px dashed black; */
 }
 
 .header-links {
@@ -59,19 +55,12 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
-	/* debug
-	background-color: darkblue; */
 }
 
 .jumbotron .content {
 	text-align: center;
 	min-height: 400px;
 	width: 50%;
-
-	/* debug
-	background-color: #ee82ee;
-	border: 2px dashed black; */
 }
 
 .title{
@@ -99,9 +88,6 @@ main>section {
 
 main>section>.container {
 	display: flex;
-
-	/* debug
-	min-height: 500px; */
 }
 
 .section-title{
@@ -166,9 +152,6 @@ main>section>.container {
 	padding-bottom: 50px;
 	margin-bottom: 50px;
 	border-bottom: 2px solid #8EA1E1;
-
-	/* debug
-	min-height: 500px; */
 }
 
 .footer-title{
@@ -187,27 +170,15 @@ main>section>.container {
 
 .footer-main-col {
 	width: calc(100% / 3);
-
-	/* debug
-	background-color: #f08080;
-	border: 2px dashed black; */
 }
 
 .footer-side-col {
 	display: flex;
 	width: calc(100% / 3 * 2);
-
-	/* debug
-	background-color: #20b2aa;
-	border: 2px dashed black; */
 }
 
 .footer-col {
 	width: 25%;
-
-	/* debug
-	background-color: #20b2aa;
-	border: 2px dashed white; */
 }
 
 .footer-bottom {
@@ -215,18 +186,10 @@ main>section>.container {
 	justify-content: space-between;
 	align-items: center;
 	min-height: 80px;
-
-	/* debug
-	background-color: #7fffd4; */
 }
 
 .footer-bottom>* {
 	padding: 5px 10px;
-
-
-	/* debug
-	background-color: #ffb6c1;
-	border: 2px dashed black; */
 }
 
 .btn-subscribe{
