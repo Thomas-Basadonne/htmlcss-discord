@@ -104,6 +104,15 @@ main>section>.container {
 	min-height: 500px; */
 }
 
+.section-title{
+	color: #23272A;
+	font-size: 40px;
+}
+
+.section-text{
+	
+}
+
 .bg-white {
 	background-color: white;
 }
@@ -132,10 +141,10 @@ main>section>.container {
 .hilighted-content {
 	flex-grow: 1;
 
-	/* debug */
+	/* debug
 	min-height: 800px;
 	background-color: forestgreen;
-	border: 2px dashed black;
+	border: 2px dashed black; */
 }
 
 /* FOOTER */
