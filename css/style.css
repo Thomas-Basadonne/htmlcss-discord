@@ -156,45 +156,58 @@ main>section>.container {
 
 .footer-main {
 	padding-top: 10px;
-
-
-	/* debug */
 	background-color: #23272a;
+	color: aliceblue;
+
 }
 
 .footer-upper {
 	display: flex;
 	padding-bottom: 50px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid purple;
+	border-bottom: 2px solid #8EA1E1;
 
-	/* debug */
-	min-height: 500px;
+	/* debug
+	min-height: 500px; */
+}
+
+.footer-title{
+	color: #8EA1E1;
+	font-size: 25px;
+}
+
+.li-title{
+	color: #8EA1E1;
+}
+
+.footer-ul{
+	list-style-type: none;
+	line-height: 30px;
 }
 
 .footer-main-col {
 	width: calc(100% / 3);
 
-	/* debug */
+	/* debug
 	background-color: #f08080;
-	border: 2px dashed black;
+	border: 2px dashed black; */
 }
 
 .footer-side-col {
 	display: flex;
 	width: calc(100% / 3 * 2);
 
-	/* debug */
+	/* debug
 	background-color: #20b2aa;
-	border: 2px dashed black;
+	border: 2px dashed black; */
 }
 
 .footer-col {
 	width: 25%;
 
-	/* debug */
+	/* debug
 	background-color: #20b2aa;
-	border: 2px dashed white;
+	border: 2px dashed white; */
 }
 
 .footer-bottom {
