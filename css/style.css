@@ -2,36 +2,50 @@
 
 .header-head {
 	display: flex;
-	align-items: center;
+	align-items: baseline;
 	min-height: 80px;
-	padding: 10px 0;
-
-	/* debug */
-	background-color: lightblue;
+	color: aliceblue;
+	background-color: #3161E0;
 }
 
 .header-nav {
+	
 	display: flex;
 	flex-grow: 1;
 	line-height: 30px;
 }
 
 .header-nav>* {
+	
 	flex-basis: 20%;
 	padding: 5px 10px;
 
-	/* debug */
+	/* debug
 	background-color: goldenrod;
-	border: 2px dashed black;
+	border: 2px dashed black; */
 }
 
 .header-links {
 	flex-grow: 1;
 	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-links>* {
+	color: aliceblue;
+	text-decoration: none;
 }
 
 .header-login {
 	text-align: right;
+	color: #23272a;
+}
+
+.btn-white{
+	border: 0;
+	border-radius: 40px;
+	background-color: aliceblue;
 }
 
 /* JUMBOTRON */
@@ -41,18 +55,40 @@
 	display: flex;
 	justify-content: center;
 
+	background-image: url("../img/jumbo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
-	/* debug */
-	background-color: darkblue;
+	/* debug
+	background-color: darkblue; */
 }
 
 .jumbotron .content {
+	text-align: center;
 	min-height: 400px;
 	width: 50%;
 
-	/* debug */
+	/* debug
 	background-color: #ee82ee;
-	border: 2px dashed black;
+	border: 2px dashed black; */
+}
+
+.title{
+	font-size: 50px;
+	color: aliceblue;
+}
+
+.subtitle{
+	font-size: 20px;
+	color: aliceblue;
+}
+
+.btn-dark {
+	color: aliceblue;
+	border: 0;
+	border-radius: 40px;
+	background-color: #23272A;
 }
 
 /* MAIN & SECTIONS */
@@ -64,8 +100,8 @@ main>section {
 main>section>.container {
 	display: flex;
 
-	/* debug */
-	min-height: 500px;
+	/* debug
+	min-height: 500px; */
 }
 
 .bg-white {
@@ -79,17 +115,18 @@ main>section>.container {
 .main-col {
 	flex-grow: 2;
 
-	/* debug */
+	/* debug
 	background-color: cornflowerblue;
-	border: 2px dashed black;
+	border: 2px dashed black; */
 }
 
 .side-col {
 	flex-grow: 1;
+	
 
-	/* debug */
+	/* debug
 	background-color: pink;
-	border: 2px dashed black;
+	border: 2px dashed black; */
 }
 
 .hilighted-content {
