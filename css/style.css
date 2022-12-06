@@ -118,7 +118,7 @@ main>section>.container {
 }
 
 .bg-gray {
-	background-color: lightgray;
+	background-color: #F6F6F6;
 	text-align: center;
 }
 
@@ -216,15 +216,23 @@ main>section>.container {
 	align-items: center;
 	min-height: 80px;
 
-	/* debug */
-	background-color: #7fffd4;
+	/* debug
+	background-color: #7fffd4; */
 }
 
 .footer-bottom>* {
 	padding: 5px 10px;
 
 
-	/* debug */
+	/* debug
 	background-color: #ffb6c1;
-	border: 2px dashed black;
+	border: 2px dashed black; */
+}
+
+.btn-subscribe{
+	font-size: 20px;
+	color: aliceblue;
+	border: 0;
+	border-radius: 40px;
+	background-color: #8EA1E1;
 }
