@@ -22,6 +22,7 @@
 }
 
 .header-links {
+	
 	flex-grow: 1;
 	text-align: center;
 	display: flex;
@@ -88,6 +89,17 @@ main>section {
 
 main>section>.container {
 	display: flex;
+}
+
+.wave{
+	color: #F6F6F6;
+	display: block;
+}
+
+.wave-white {
+	color: #F6F6F6;
+	display: block;
+	transform: scaleY(-1);
 }
 
 .section-title{
